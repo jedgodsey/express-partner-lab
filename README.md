@@ -27,4 +27,6 @@ Expand the morning's app to have the following:
 1. Create a show page/route with links to it from the index page
 1. The show page should have a link to the edit page
 1. The edit page should have a delete button which will delete the specified item
+1. Into back end? Research routing on the documentation page for Express Router and see if you can chain some routes or try something else you see there.
+1. Into the "front end" of the back end?  Research EJS Partials (we'll teach you them later) and see if you can add a header and/or footer to your EJS pages.
 >You're committing right?
