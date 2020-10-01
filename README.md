@@ -4,8 +4,8 @@
 
 Come up with a CRUDable model (fruit, human, robot, etc)
 
-1. Set up a repo.
-1. Create an express app. `.gitignore` your `node_modules`. Commit.
+<!-- 1. Set up a repo.
+1. Create an express app. `.gitignore` your `node_modules`. Commit. -->
 1. Create an array of your CRUDable objects. Commit.
 1. Create an index route that renders a template that displays all your objects. Commit.
 1. Make index template contain a form which will make a DELETE request to the server.  Commit.
