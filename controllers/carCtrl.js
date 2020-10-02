@@ -22,9 +22,3 @@ router.delete('/:car', (req, res) => {
 })
 
 module.exports = router;
-
-
-// router.delete('/:fruitIndex', (req, res) => {
-//     fruits.splice(req.params.fruitIndex, 1);
-//     res.redirect('/fruits')
-//   })
