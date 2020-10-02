@@ -16,5 +16,9 @@
     <div>
         <p>All-Wheel Drive?: <%= cars[car].AWD %></p>
     </div>
+    <h3>Deletion</h3>
+    <form method="POST" action='/cars/<%= car %>?_method=DELETE'>
+        <input type="submit" value="DELETE THIS CAR">
+    </form>
 </body>
 </html>
