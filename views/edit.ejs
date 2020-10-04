@@ -8,7 +8,7 @@
 <body>
     <h1><%= car.model %></h1>
 
-    <form action="/cars/<%= carIndex %>?_method=GET" method="POST">
+    <form action="/cars/<%= carIndex %>?_method=PUT" method="POST">
         <div>
             Make: <input type="text" value="<%= car.make %>">
         </div>
