@@ -16,9 +16,20 @@ router.get('/:car', (req, res) => {
 })
 
 router.delete('/:car', (req, res) => {
-    console.log('hitting the path')
     cars.splice(req.params.car, 1);
     res.redirect('/cars');
+})
+
+router.get('/:car/edit', (req, res) => {
+    let carIndex = req.params.car
+    res.render('edit', {
+        car: cars[carIndex],
+        carIndex: carIndex
+    });
+})
+
+router.put('/:car', (req, res) => {
+    console.log('working maybe?')
 })
 
 module.exports = router;

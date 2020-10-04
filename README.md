@@ -1,19 +1,3 @@
-# Lab - Delete/Update
-
-## Morning
-
-Come up with a CRUDable model (fruit, human, robot, etc)
-
-<!-- 1. Set up a repo.
-1. Create an express app. `.gitignore` your `node_modules`. Commit. -->
-<!-- 1. Create an array of your CRUDable objects. Commit. -->
-<!-- 1. Create an index route that renders a template that displays all your objects. Commit. -->
-1. Make index template contain a form which will make a DELETE request to the server.  Commit.
-1. Create a DELETE route that will remove the specified object from the array and redirect to the index page. Commit.
-
-## Afternoon
-
-Expand the morning's app to have the following:
 
 1. An edit route that shows an edit page (template) containing a form populated with the data from the server for one item. Commit.
 1. A link to the edit routes on the index page. Commit.

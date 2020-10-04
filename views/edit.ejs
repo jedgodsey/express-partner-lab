@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Car</title>
+</head>
+<body>
+    <h1><%= car.model %></h1>
+
+    <form action="/cars/<%= carIndex %>?_method=GET" method="POST">
+        <div>
+            Make: <input type="text" value="<%= car.make %>">
+        </div>
+        <div>
+            Model: <input type="text" value="<%= car.model %>">
+        </div>
+        <div>
+            Number of Doors: <input type="number" value="<%= car.doors %>">
+        </div>
+        <div>
+            AWD: <input type="checkbox" <%= car.AWD ? 'checked' : '' %>>
+        </div>
+        <input type="submit" value="SUBMIT EDITS">
+    </form>
+</body>
+</html>
